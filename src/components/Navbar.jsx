@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export const Navbar = ({ menuOpen, setMenuOpen }: any) => {
+export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
@@ -16,7 +16,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }: any) => {
 
           <div
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
-            onClick={() => setMenuOpen((prev: boolean) => !prev)}
+            onClick={() => setMenuOpen((prev) => !prev)}
           >
             &#9776;
           </div>
