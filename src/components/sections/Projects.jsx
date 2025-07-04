@@ -13,13 +13,13 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">OneFit</h3>
+              <h3 className="text-xl font-bold mb-2">Ziki</h3>
               <p className="text-grey-400 mb-4">
                 Scalable web based application, with real time monitoring stock,
                 orders, sales and purchases
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Angular", "C#", "SQL", "Azure DevOps", "GitHub"].map(
+                {["Angular", "NGPrime", "TailwindCSS", "GitHub"].map(
                   (tech, key) => (
                     <span
                       key={key}
